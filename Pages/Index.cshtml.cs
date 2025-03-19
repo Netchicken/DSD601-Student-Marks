@@ -1,4 +1,5 @@
 ﻿using DSD601_Student_Marks.DTO;
+using DSD601_Student_Marks.Operations;
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -48,3 +49,4 @@ namespace DSD601_Student_Marks.Pages
 
         }
     }
+}
