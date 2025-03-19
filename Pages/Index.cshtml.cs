@@ -16,8 +16,8 @@ namespace DSD601_Student_Marks.Pages
         public Marks marks { get; set; }
 
 
-        [Display(Name = "Student Results")]
-        public List<string>? StudentResults;
+        //   [Display(Name = "Student Results")]
+        // public List<string>? StudentResults;
 
 
         [Display(Name = "Student Results")]
@@ -26,7 +26,7 @@ namespace DSD601_Student_Marks.Pages
 
         public IndexModel()
         {
-            StudentResults = new List<string>();
+            //   StudentResults = new List<string>();
         }
 
 
