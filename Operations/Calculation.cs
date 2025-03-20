@@ -29,7 +29,7 @@ namespace DSD601_Student_Marks.Operations
             }
 
 
-            marks.Result = marks.Name + " Pass 1 = " + marks.Pass1 + ". Pass All = " + marks.PassAll + ". Pass 3 = " + marks.Pass3 + ".  Student Average = " + StudentAverage;
+            marks.Result = $"{marks.Name} Did they Pass 1? = {Environment.NewLine}{marks.Pass1}  Did they Pass All? = {marks.PassAll}{Environment.NewLine}  Did they Pass 3? = {marks.Pass3}{Environment.NewLine} Student Average = {StudentAverage}";
 
 
             StaticList.StaticStudentResults?.Add(marks.Result);
